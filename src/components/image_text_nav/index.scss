@@ -1,0 +1,77 @@
+
+.text-nav{
+    height: 76px;
+}
+
+// 样式固定
+.flex{
+    display: flex;
+    // justify-content: space-between;
+}
+.common-text-nav{
+    padding: 0 10px;
+    box-sizing: border-box;
+    height: 76px;
+    white-space: nowrap;
+}
+
+.text-item{
+    display: inline-block;
+    position: relative;
+    height: 76px;
+    line-height: 76px;
+    min-width: 100px;
+    max-width: 200px;
+    text-align: center;
+    width: 100%;
+    View:nth-of-type(1){
+        padding: 0 10px;
+        overflow:hidden; //超出一行文字自动隐藏
+        text-overflow:ellipsis;//文字隐藏后添加省略号
+        white-space:nowrap;  //强制不换行
+    }
+}
+
+.img-common{
+    white-space: nowrap;
+    position: relative;
+}
+.img-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.img-item{
+    display: inline-block;
+    // height: 152px;
+    text-align: center;
+    padding: 0 10px;
+    min-width: 100px;
+    max-width: 300px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    Image{
+        display: inline-block;
+    }
+    View{
+        margin: 0 auto;
+        height: 44px;
+        overflow:hidden; //超出一行文字自动隐藏
+        text-overflow:ellipsis;//文字隐藏后添加省略号
+        white-space:nowrap;  //强制不换行
+        
+    }
+}
+.border{
+    position: absolute;
+    right: 0;
+    top: 38px;
+    margin-top: -15px;
+    height: 30px;
+    background: black;
+    border-radius: 10px ;
+}
+.text-item:nth-last-of-type(1){
+    .border{
+        display: none;
+    }
+}

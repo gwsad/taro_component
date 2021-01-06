@@ -1,0 +1,263 @@
+
+.shop-banner{
+    position: relative;
+}
+.img-bg{
+    width: 100%;
+    height: 370px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+// 样式一
+.shop-0{
+
+}
+.cap-shop-banner__inner{
+    position: absolute;
+    top: 220px;
+    width: 100%;
+}
+.cap-shop-banner__content{
+    position: relative;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.cap-shop-banner__logo{
+    float: left;
+    width: 116px;
+    height: 116px;
+    overflow: hidden;
+    vertical-align: bottom;
+    background-color: #fff;
+    border: 1px solid #fff;
+    Image{
+        max-width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        border: none;
+    }
+}
+
+.cap-shop-banner__right-content{
+    margin-left: 140px;
+    .h3{
+        max-width: 440px;
+        margin-top: 20px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        text-shadow: 0 2px 30px rgba(0,0,0,0.5);
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+}
+.cap-shop-banner__reduce-content{
+    position: relative;
+    margin: 8px 15px 0 0;
+    padding-right: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.cap-shop-banner__reduce-content-tag{
+    display: inline-block;
+    height: 28px;
+    padding: 0 6px;
+    font-size: 24px;
+    line-height: 28px;
+    vertical-align: middle;
+    background-color: #f44;
+    border-radius: 2px;
+}
+.cap-shop-banner__reduce-content-text{
+    margin-left: 6px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+.icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 28px;
+}
+.cap-shop-banner__sum-content-total{
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+    vertical-align: middle;
+}
+
+// 样式二
+.shop-1{
+    height: 476px;
+    position: relative;
+    font-size: 24px;
+    background-color: #fff;
+    .cap-shop-banner__inner{
+        top: 300px;
+        position: absolute;
+        width: 100%;
+    }
+    .cap-shop-banner__logo{
+        width: 140px;
+        height: 140px;
+    }
+    .cap-shop-banner__right-content{
+        margin-left: 164px;
+    }
+    .cap-shop-banner__right-content-title--middle{
+        max-width: 440px;
+        margin-top: 20px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        text-shadow: 0 2px 30px rgba(0,0,0,0.5);
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+}
+.cap-shop-banner__cover{
+    position: relative;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cap-shop-banner__sum-content{
+    margin-top: 30px;
+    line-height: 24px;
+    color: #999;
+    Text{
+        padding-left: 0;
+        position: relative;
+        display: inline-block;
+        padding: 0 10px;
+        vertical-align: middle;
+        border-right: 1px solid #e5e5e5;
+    }
+    Text:nth-last-of-type(1){
+        border-right: none;
+    }
+}
+
+// 样式三
+.shop-2{
+    .cap-shop-banner__sum-content{
+        position: relative;
+        display: inline-block;
+        padding: 0 10px;
+        vertical-align: middle;
+        font-size: 28px;
+        Text{
+            font-size: 24px;
+            color: #fff;
+        }
+        Text:nth-of-type(1){
+            padding-left: 0;
+        }
+    }
+}
+
+// 样式四
+.shop-3{
+    height: 506px;
+    .cap-shop-banner__cover{
+        height: 300px;
+        .img-bg{
+            height: 300px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    }
+    .cap-shop-banner__content{
+        padding-left: 0;
+        text-align: center;
+    }
+    .cap-shop-banner__logo{
+        display: inline-block;
+        float: none;
+        width: 140px;
+        height: 140px;
+    }
+    .cap-shop-banner__right-content{
+        margin-left: 0;
+    }
+    .h3{
+        display: inline-block;
+        max-width: 100%;
+        margin-top: 40px;
+        color: #333;
+        text-shadow: none;
+    }
+    .cap-shop-banner__sum-content{
+        margin-top: 10px;
+        line-height: 48rpx;
+        font-size: 28px;
+    }
+}
+
+// 样式五
+.shop-4{
+    height: 500px;
+    .cap-shop-banner__cover{
+        height: 100%;
+        Image{
+            height: 100%;
+        }
+    }
+    .cap-shop-banner__inner{
+        top: 100px;
+    }
+    .cap-shop-banner__content{
+        padding-left: 0;
+        text-align: center;
+    }
+    .cap-shop-banner__logo{
+        display: inline-block;
+        float: none;
+        width: 140px;
+        height: 140px;
+    }
+    .cap-shop-banner__right-content{
+        margin-left: 0;
+    }
+    .h3{
+        display: inline-block;
+        max-width: 100%;
+        margin-top: 40px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-shadow: none;
+        border-bottom: 2px solid rgba(255,255,255,0.5);
+    }
+    .cap-shop-banner__sum-content{
+        margin-top: 5px;
+        Text{
+            font-size: 24px;
+            color: #fff;
+        }
+        Text:nth-of-type(1){
+            padding-left: 0;
+        }
+    }
+}

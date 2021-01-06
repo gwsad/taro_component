@@ -1,0 +1,35 @@
+.search-wrap {
+    width: 100%;
+    background: #ffffff;
+}
+
+.search-wrap.fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+
+.tag-list {
+    padding: 20px;
+}
+
+.hot-title {
+    font-size: 28px;
+    color: #686868;
+    margin: 0 0 20px 0;
+}
+
+.tag-item {
+    background: rgb(240, 238, 241);
+    color: #686868;
+    font-size: 24px;
+    margin: 0 20px 20px 0;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.disappear {
+    display: none;
+}

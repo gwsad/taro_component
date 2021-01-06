@@ -1,0 +1,90 @@
+.cap-image-ad {
+    position: relative;
+}
+
+.cap-image-ad--img-shadow  {
+    box-shadow: 0 4px 10px cyan;
+}
+.image-ad__swipe__image-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.cap-image-ad--fillet .image-ad__swipe__image-container{
+    border-radius: 16px;
+}
+.cap-image-ad--fillet .image-ad__swipe__image-container Image {
+    border-radius: 16px;
+}
+.image-ad__swipe__image-container Image {
+    width: 100%;
+    height: 100%;
+}
+.cap-indicator {
+    position: absolute;
+}
+.cap-indicator--2 {
+    bottom: 20px;
+    left: 50%;
+    display: flex;
+    transform: translateX(-50%);
+}
+.cap-indicator--2 .cap-indicator__dot {
+    float: left;
+    width: 24px;
+    height: 4px;
+    margin-left: 4px;
+    background-color: #c5c5c5;
+}
+.cap-indicator--2 .cap-indicator__dot.active {
+    background-color: #f44!important;
+}
+.cap-indicator--3 {
+    right: 30px;
+    bottom: 26px;
+    display: inline-block;
+    height: 32px;
+    color: #999;
+    font-size: 24px;
+    line-height: 32px;
+}
+.cap-indicator--3 .cap-indicator__dot.active {
+    margin-right: 4px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #f44!important;
+}
+.cap-indicator--4 {
+    right: 30px;
+    bottom: 26px;
+    display: inline-block;
+    min-width: 36px;
+    height: 36px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 36px;
+    background: #000;
+    border-radius: 100px;
+    opacity: .3;
+}
+.cap-image-ad--fillet .cap-image-ad__title {
+    border-radius: 0 0 16px 16px;
+}
+.cap-image-ad__title {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 72px;
+    padding: 0 16px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 28px;
+    line-height: 72px;
+    // text-align: center;
+    background-color: rgba(51,51,51,0.8);
+}

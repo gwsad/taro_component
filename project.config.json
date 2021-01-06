@@ -1,0 +1,30 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "taro-component",
+	"description": "component",
+	"appid": "wxbc332e5ed4ecd141",
+	"setting": {
+		"urlCheck": true,
+		"scopeDataCheck": false,
+		"coverView": true,
+		"es6": false,
+		"postcss": false,
+		"compileHotReLoad": false,
+		"preloadBackgroundData": false,
+		"minified": false,
+		"autoAudits": false,
+		"newFeature": false,
+		"uglifyFileName": false,
+		"uploadWithSourceMap": true,
+		"useIsolateContext": true,
+		"nodeModules": false,
+		"enhance": false,
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false,
+		"showShadowRootInWxmlPanel": true
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
+}

@@ -1,0 +1,26 @@
+.cap-cube-wrap {
+    width: 100%;
+    overflow: hidden;
+}
+
+.cap-cube {
+    position: relative;
+    width: 100%;
+}
+
+.cap-cube__item {
+    position: absolute;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cap-cube__table-image--invisible {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
